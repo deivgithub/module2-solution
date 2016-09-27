@@ -1,5 +1,10 @@
 /* Mi hoja de estilo */
 @media (min-width: 992px) {
+  section {
+      box-sizing: border-box;
+      margin: 15px;
+      float: left;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -7,3 +12,4 @@
 
 @media (max-width: 767px) {
 }
+
